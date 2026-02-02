@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/Button";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export function Navbar() {
@@ -16,9 +17,12 @@ export function Navbar() {
             animate={{ y: 0 }}
             transition={{ delay: isHome ? 2.8 : 0, duration: 0.8, type: "spring" }} // Delay only on Home (SplashScreen)
         >
-            <div className="text-2xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-purple">
+            <Link
+                href="/"
+                className="text-2xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-purple hover:opacity-80 transition-opacity"
+            >
                 KharmFy
-            </div>
+            </Link>
             <div>
                 <Button size="sm" variant="outline">
                     Entrar

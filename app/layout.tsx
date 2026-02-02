@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat } from "next/font/google";
+import { Inter, Montserrat, Playfair_Display } from "next/font/google"; // Added Serif Font
 import "./globals.css";
 import { clsx } from "clsx";
 
@@ -11,6 +11,12 @@ const inter = Inter({
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -35,6 +41,7 @@ export default function RootLayout({
         className={clsx(
           inter.variable,
           montserrat.variable,
+          playfair.variable, // Added Serif Variable
           "antialiased min-h-screen font-sans"
         )}
       >
