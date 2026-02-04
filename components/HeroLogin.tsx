@@ -106,7 +106,7 @@ export function HeroLogin() {
                         >
                             Conexões Kármicas
                         </motion.span>
-                        <h2 className="text-5xl sm:text-6xl md:text-7xl font-serif font-medium leading-[1.0] md:leading-[1.1] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
+                        <h2 className="text-5xl sm:text-6xl md:text-7xl font-sans font-bold tracking-tight leading-[1.0] md:leading-[1.1] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
                             Reconheça quem <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-purple via-brand-pink to-brand-orange animate-gradient-x">
                                 a sua alma
@@ -126,11 +126,11 @@ export function HeroLogin() {
                         className="flex flex-col sm:flex-row gap-4 justify-center pt-8 px-4"
                         transition={{ duration: 0.8, delay: 0.6 }}
                     >
-                        <Button className="bg-white text-black hover:bg-gray-100 font-serif tracking-wide px-8 py-6 text-base shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-full hover:scale-105 transition-all group relative overflow-hidden">
+                        <Button className="bg-white text-black hover:bg-gray-100 font-sans font-medium tracking-wide px-8 py-6 text-base shadow-[0_0_20px_rgba(255,255,255,0.1)] rounded-full hover:scale-105 transition-all group relative overflow-hidden">
                             <span className="relative z-10">Iniciar Jornada</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-200/50 to-transparent -translate-x-full group-hover:animate-shimmer" />
                         </Button>
-                        <Button variant="ghost" className="text-white hover:text-brand-orange border border-white/10 hover:bg-white/5 font-light tracking-wide px-6 py-6 rounded-full backdrop-blur-sm transition-colors duration-300">
+                        <Button variant="ghost" className="text-white hover:text-brand-orange border border-white/10 hover:bg-white/5 font-sans font-medium tracking-wide px-6 py-6 rounded-full backdrop-blur-sm transition-colors duration-300">
                             Entender o Karma
                         </Button>
                     </motion.div>
