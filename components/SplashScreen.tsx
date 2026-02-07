@@ -33,7 +33,7 @@ export function SplashScreen() {
                             className="text-5xl md:text-7xl font-display font-extrabold tracking-tight"
                             animate={{ backgroundPosition: ["0%", "100%"] }}
                         >
-                            KharmFy
+                            KarmFy
                         </motion.h1>
                         <motion.p
                             className="mt-4 text-lg md:text-xl font-light tracking-widest uppercase opacity-90"

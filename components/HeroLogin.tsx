@@ -99,13 +99,29 @@ export function HeroLogin() {
                         className="space-y-6"
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
-                        <motion.span
-                            animate={{ opacity: [0.7, 1, 0.7] }}
-                            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                            className="inline-block text-brand-orange font-display tracking-[0.3em] text-[10px] md:text-sm uppercase mb-2 border border-brand-orange/30 px-3 py-1 rounded-full bg-brand-orange/5 backdrop-blur-sm shadow-[0_0_15px_rgba(255,100,0,0.1)]"
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 1, delay: 0.5 }}
+                            className="inline-block relative group"
                         >
-                            Conexões Kármicas
-                        </motion.span>
+                            <motion.div
+                                className="absolute -inset-0.5 bg-gradient-to-r from-brand-orange via-brand-pink to-brand-purple rounded-full blur-[8px]"
+                                animate={{
+                                    opacity: [0.4, 0.7, 0.4],
+                                    scale: [0.98, 1.04, 0.98]
+                                }}
+                                transition={{
+                                    duration: 3,
+                                    repeat: Infinity,
+                                    ease: "easeInOut"
+                                }}
+                            />
+                            <span className="relative flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/50 backdrop-blur-xl border border-white/10 text-xs md:text-sm font-display tracking-[0.2em] uppercase text-white shadow-2xl">
+                                <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-pulse"></span>
+                                Conexões Kármicas
+                            </span>
+                        </motion.div>
                         <h2 className="text-5xl sm:text-6xl md:text-7xl font-sans font-bold tracking-tight leading-[1.0] md:leading-[1.1] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]">
                             Reconheça quem <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-purple via-brand-pink to-brand-orange animate-gradient-x">
@@ -119,7 +135,7 @@ export function HeroLogin() {
                         className="text-base md:text-xl text-gray-300 font-light leading-relaxed max-w-2xl mx-auto drop-shadow-md px-4"
                         transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                        Não é coincidência. É sincronia. O KharmFy une pessoas não por algoritmos vazios, mas por afinidade de propósito.
+                        Não é coincidência. É sincronia. O KarmFy une pessoas não por algoritmos vazios, mas por afinidade de propósito.
                     </motion.p>
 
                     <motion.div

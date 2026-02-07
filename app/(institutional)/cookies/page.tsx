@@ -2,8 +2,8 @@ import { LegalPageLayout } from "@/components/institutional/LegalPageLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Política de Cookies - KharmFy",
-    description: "Entenda como usamos cookies para melhorar sua experiência no KharmFy.",
+    title: "Política de Cookies - KarmFy",
+    description: "Entenda como usamos cookies para melhorar sua experiência no KarmFy.",
 };
 
 export default function CookiesPage() {
@@ -22,12 +22,12 @@ export default function CookiesPage() {
                 <li>
                     <strong>Essenciais (Sessão):</strong>
                     <br />
-                    <code>kharmfy_auth_token</code> — Fundamental. É o que mantém você logado. Sem ele, você teria que digitar a senha a cada clique.
+                    <code>karmfy_auth_token</code> — Fundamental. É o que mantém você logado. Sem ele, você teria que digitar a senha a cada clique.
                 </li>
                 <li>
                     <strong>Preferências:</strong>
                     <br />
-                    <code>theme_mode</code> — Lembra se você prefere usar o KharmFy no Modo Escuro (Dark) ou Claro (Light).
+                    <code>theme_mode</code> — Lembra se você prefere usar o KarmFy no Modo Escuro (Dark) ou Claro (Light).
                 </li>
                 <li>
                     <strong>Segurança:</strong>

@@ -4,7 +4,7 @@ export function Footer() {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8">
                     <div>
-                        <span className="text-2xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-pink">KharmFy</span>
+                        <span className="text-2xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-pink">KarmFy</span>
                         <p className="mt-4 text-gray-400 text-sm">
                             Conexões reais baseadas em propósito e reputação. Sem swipe, apenas Karma.
                         </p>
@@ -40,7 +40,7 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-500">
-                    <p>© {new Date().getFullYear()} KharmFy. Todos os direitos reservados.</p>
+                    <p>© {new Date().getFullYear()} KarmFy. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>

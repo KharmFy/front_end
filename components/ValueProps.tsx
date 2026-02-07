@@ -8,7 +8,7 @@ const features = [
         icon: XCircle,
         color: "text-brand-orange",
         title: "Sem Swipe",
-        description: "Fim do julgamento superficial. Na KharmFy, você navega por um Mural de Intenções e decide com calma, analisando perfis completos.",
+        description: "Fim do julgamento superficial. Na KarmFy, você navega por um Mural de Intenções e decide com calma, analisando perfis completos.",
     },
     {
         icon: Star,
@@ -36,7 +36,7 @@ export function ValueProps() {
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16 space-y-4">
                     <h2 className="text-3xl md:text-5xl font-display font-bold">
-                        Por que a <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-pink">KharmFy</span> é diferente?
+                        Por que a <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-pink">KarmFy</span> é diferente?
                     </h2>
                     <p className="text-gray-500 max-w-2xl mx-auto text-lg">
                         Estamos redefinindo as conexões online. Menos quantidade, mais qualidade e respeito.

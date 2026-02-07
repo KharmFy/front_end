@@ -2,8 +2,8 @@ import { LegalPageLayout } from "@/components/institutional/LegalPageLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Política de Privacidade - KharmFy",
-    description: "Entenda como a KharmFy coleta, usa e protege seus dados pessoais. Transparência radical e conformidade com a LGPD.",
+    title: "Política de Privacidade - KarmFy",
+    description: "Entenda como a KarmFy coleta, usa e protege seus dados pessoais. Transparência radical e conformidade com a LGPD.",
 };
 
 export default function PrivacyPage() {
@@ -12,7 +12,7 @@ export default function PrivacyPage() {
 
 
             <p className="lead">
-                Sua privacidade é inegociável. A KharmFy foi construída sobre os pilares de Transparência Radical e Controle do Usuário. Abaixo, detalhamos exatamente o que sabemos sobre você.
+                Sua privacidade é inegociável. A KarmFy foi construída sobre os pilares de Transparência Radical e Controle do Usuário. Abaixo, detalhamos exatamente o que sabemos sobre você.
             </p>
 
             <hr className="my-12 border-brand-purple/10" />

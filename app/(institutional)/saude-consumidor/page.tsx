@@ -2,8 +2,8 @@ import { LegalPageLayout } from "@/components/institutional/LegalPageLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Política de Dados de Saúde - KharmFy",
-    description: "Compromisso KharmFy sobre a não-comercialização do seu bem-estar e dados sensíveis.",
+    title: "Política de Dados de Saúde - KarmFy",
+    description: "Compromisso KarmFy sobre a não-comercialização do seu bem-estar e dados sensíveis.",
 };
 
 export default function HealthDataPage() {
@@ -12,7 +12,7 @@ export default function HealthDataPage() {
 
 
             <p className="lead">
-                A KharmFy leva a sério a proteção de dados sensíveis. Entendemos que informações de saúde são privadas e não devem ser transformadas em mercadoria publicitária.
+                A KarmFy leva a sério a proteção de dados sensíveis. Entendemos que informações de saúde são privadas e não devem ser transformadas em mercadoria publicitária.
             </p>
 
             <hr className="my-12 border-brand-purple/10" />
@@ -34,7 +34,7 @@ export default function HealthDataPage() {
                     <strong>Acessibilidade & Suporte:</strong> Caso você solicite adaptações de acessibilidade no app, esse registro é mantido em absoluto sigilo e restrito à equipe técnica.
                 </li>
                 <li>
-                    <strong>Proibição de Uso Comercial:</strong> É terminantemente proibido o uso de inferências de saúde para precificação dinâmica de assinaturas ou direcionamento de publicidade de terceiros dentro do KharmFy.
+                    <strong>Proibição de Uso Comercial:</strong> É terminantemente proibido o uso de inferências de saúde para precificação dinâmica de assinaturas ou direcionamento de publicidade de terceiros dentro do KarmFy.
                 </li>
             </ol>
         </LegalPageLayout>

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import { ShieldAlert, MapPin, Heart, AlertTriangle, MessageCircle, Navigation, Phone, Globe, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Dicas de Segurança - KharmFy",
+    title: "Dicas de Segurança - KarmFy",
     description: "Guia essencial para se manter seguro online e nos encontros presenciais.",
 };
 

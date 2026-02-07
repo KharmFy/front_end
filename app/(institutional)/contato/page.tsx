@@ -25,19 +25,19 @@ export default function ContactPage() {
                     <Mail className="w-8 h-8 text-brand-orange mb-4" />
                     <h3 className="text-lg font-bold mb-2">Suporte Geral</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Dúvidas sobre conta, app ou planos.</p>
-                    <a href="mailto:suporte@kharmfy.com" className="text-brand-orange font-medium hover:underline">suporte@kharmfy.com</a>
+                    <a href="mailto:suporte@karmfy.com" className="text-brand-orange font-medium hover:underline">suporte@karmfy.com</a>
                 </div>
                 <div className="p-6 bg-brand-purple/10 rounded-xl border border-brand-purple/20">
                     <Shield className="w-8 h-8 text-brand-purple mb-4" />
                     <h3 className="text-lg font-bold mb-2">Central de Segurança</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Denúncias graves e questões legais.</p>
-                    <a href="mailto:seguranca@kharmfy.com" className="text-brand-purple font-medium hover:underline">seguranca@kharmfy.com</a>
+                    <a href="mailto:seguranca@karmfy.com" className="text-brand-purple font-medium hover:underline">seguranca@karmfy.com</a>
                 </div>
                 <div className="p-6 bg-blue-50 dark:bg-blue-900/10 rounded-xl border border-blue-100 dark:border-blue-900/30">
                     <AlertTriangle className="w-8 h-8 text-blue-500 mb-4" />
                     <h3 className="text-lg font-bold mb-2">Imprensa & Dados</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Para jornalistas e DPO.</p>
-                    <a href="mailto:press@kharmfy.com" className="text-blue-500 font-medium hover:underline">press@kharmfy.com</a>
+                    <a href="mailto:press@karmfy.com" className="text-blue-500 font-medium hover:underline">press@karmfy.com</a>
                 </div>
             </section>
 

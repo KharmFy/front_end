@@ -20,10 +20,10 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "KharmFy - Conexões com Propósito",
+  title: "KarmFy - Conexões com Propósito",
   description: "Rede social de encontros focada em conexões reais, sem swipe. Construa seu Karma e encontre pessoas com propósito.",
   openGraph: {
-    title: "KharmFy - Conexões com Propósito",
+    title: "KarmFy - Conexões com Propósito",
     description: "Abandone o swipe. Conheça o sistema de Karma.",
     type: "website",
     locale: "pt_BR",

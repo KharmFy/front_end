@@ -3,8 +3,8 @@ import { Accordion } from "@/components/ui/Accordion";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Perguntas Frequentes (FAQ) - KharmFy",
-    description: "Tire suas dúvidas sobre Karma, Planos e Segurança no KharmFy.",
+    title: "Perguntas Frequentes (FAQ) - KarmFy",
+    description: "Tire suas dúvidas sobre Karma, Planos e Segurança no KarmFy.",
 };
 
 const faqItems = [

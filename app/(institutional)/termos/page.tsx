@@ -2,8 +2,8 @@ import { LegalPageLayout } from "@/components/institutional/LegalPageLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Termos de Uso - KharmFy",
-    description: "Contrato de serviço e regras da comunidade KharmFy.",
+    title: "Termos de Uso - KarmFy",
+    description: "Contrato de serviço e regras da comunidade KarmFy.",
 };
 
 export default function TermsPage() {
@@ -12,13 +12,13 @@ export default function TermsPage() {
 
 
             <p className="lead">
-                Bem-vindo ao KharmFy. Ao utilizar nosso serviço, você concorda em fazer parte de uma comunidade baseada em respeito e responsabilidade.
+                Bem-vindo ao KarmFy. Ao utilizar nosso serviço, você concorda em fazer parte de uma comunidade baseada em respeito e responsabilidade.
             </p>
 
             <hr className="my-12 border-brand-purple/10" />
 
             <h2>1. Aceitação e Elegibilidade</h2>
-            <p>O KharmFy não é para todos. Para entrar, você precisa cumprir requisitos estritos:</p>
+            <p>O KarmFy não é para todos. Para entrar, você precisa cumprir requisitos estritos:</p>
             <ul>
                 <li>Você deve ter <strong>pelo menos 18 anos</strong> completos.</li>
                 <li>Você declara, sob pena da lei, que <strong>nunca foi condenado</strong> por crimes sexuais, violência doméstica ou assédio.</li>
@@ -26,7 +26,7 @@ export default function TermsPage() {
 
             <hr className="my-12 border-brand-purple/10" />
 
-            <h2>2. O Código KharmFy (Regras da Comunidade)</h2>
+            <h2>2. O Código KarmFy (Regras da Comunidade)</h2>
             <p>Mantemos um padrão elevado de comportamento. Violações resultam em perda de Karma ou banimento imediato:</p>
             <ul>
                 <li><strong>Zero Tolerância:</strong> Qualquer forma de assédio, racismo, homofobia ou discurso de ódio resultará em Banimento Permanente e denúncia às autoridades se aplicável.</li>
@@ -39,9 +39,9 @@ export default function TermsPage() {
             <h2>3. Isenção de Responsabilidade</h2>
             <p>Embora nos esforcemos para manter a segurança:</p>
             <ul>
-                <li>A KharmFy conecta pessoas, mas <strong>não controla o comportamento delas fora do app</strong> (offline).</li>
-                <li>Você concorda em isentar a KharmFy de responsabilidade por danos resultantes de encontros presenciais.</li>
-                <li>Atualmente, a KharmFy <strong>não realiza checagem de antecedentes criminais</strong> em tempo real no Brasil, devido a limitações de dados públicos unificados.</li>
+                <li>A KarmFy conecta pessoas, mas <strong>não controla o comportamento delas fora do app</strong> (offline).</li>
+                <li>Você concorda em isentar a KarmFy de responsabilidade por danos resultantes de encontros presenciais.</li>
+                <li>Atualmente, a KarmFy <strong>não realiza checagem de antecedentes criminais</strong> em tempo real no Brasil, devido a limitações de dados públicos unificados.</li>
             </ul>
 
             <hr className="my-12 border-brand-purple/10" />
