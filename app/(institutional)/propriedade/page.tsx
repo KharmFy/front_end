@@ -2,13 +2,13 @@ import { LegalPageLayout } from "@/components/institutional/LegalPageLayout";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Propriedade Intelectual e Acessibilidade - KarmFy",
-    description: "Direitos autorais e nosso compromisso com a inclusão.",
+    title: "Propriedade Intelectual - KarmFy",
+    description: "Direitos autorais e uso da marca.",
 };
 
 export default function PropertyPage() {
     return (
-        <LegalPageLayout title="Propriedade & Acessibilidade" lastUpdated="Fevereiro de 2026">
+        <LegalPageLayout title="Propriedade Intelectual" lastUpdated="Fevereiro de 2026">
 
             <section className="mb-12">
                 <h2>Propriedade Intelectual</h2>
@@ -21,16 +21,7 @@ export default function PropertyPage() {
                 </ul>
             </section>
 
-            <section>
-                <h2>Declaração de Acessibilidade</h2>
 
-
-                <ul>
-                    <li><strong>Compromisso:</strong> Seguimos as diretrizes WCAG 2.1 (Nível AA).</li>
-                    <li><strong>Recursos:</strong> Navegação compatível com leitores de tela (TalkBack/VoiceOver) e contraste adaptado.</li>
-                    <li><strong>Canal Dedicado:</strong> Encontrou uma barreira? Avise-nos diretamente em <a href="mailto:acessibilidade@karmfy.com">acessibilidade@karmfy.com</a>.</li>
-                </ul>
-            </section>
 
         </LegalPageLayout>
     );

@@ -13,7 +13,7 @@ export function Footer() {
                     <div>
                         <h4 className="font-bold mb-4 text-brand-orange">Sobre</h4>
                         <ul className="space-y-2 text-sm text-gray-400">
-                            <li><a href="/#features" className="hover:text-brand-pink transition-colors">Como Funciona</a></li>
+                            <li><a href="/como-funciona" className="hover:text-brand-pink transition-colors">Como Funciona</a></li>
                             <li><a href="/faq" className="hover:text-brand-pink transition-colors">Perguntas Frequentes</a></li>
                             <li><a href="/contato" className="hover:text-brand-pink transition-colors">Fale Conosco</a></li>
                         </ul>

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/Button";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export function HeroLogin() {
@@ -146,9 +147,11 @@ export function HeroLogin() {
                             <span className="relative z-10">Iniciar Jornada</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gray-200/50 to-transparent -translate-x-full group-hover:animate-shimmer" />
                         </Button>
-                        <Button variant="ghost" className="text-white hover:text-brand-orange border border-white/10 hover:bg-white/5 font-sans font-medium tracking-wide px-6 py-6 rounded-full backdrop-blur-sm transition-colors duration-300">
-                            Entender o Karma
-                        </Button>
+                        <Link href="/como-funciona">
+                            <Button variant="ghost" className="text-white hover:text-brand-orange border border-white/10 hover:bg-white/5 font-sans font-medium tracking-wide px-6 py-6 rounded-full backdrop-blur-sm transition-colors duration-300">
+                                Entender o Karma
+                            </Button>
+                        </Link>
                     </motion.div>
                 </div>
             </motion.div>

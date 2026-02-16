@@ -41,24 +41,24 @@ export default function SafetyPage() {
                 {/* IRL Safety Section */}
                 <section>
                     <div className="flex items-center gap-3 mb-6">
-                        <MapPin className="w-8 h-8 text-brand-purple" />
+                        <MapPin className="w-8 h-8 text-brand-pink" />
                         <h2 className="text-2xl font-display font-bold text-gray-900 dark:text-white">No Encontro (IRL)</h2>
                     </div>
                     <div className="grid md:grid-cols-3 gap-6">
                         <div className="flex flex-col gap-4 p-6 bg-gray-50 dark:bg-zinc-800/50 rounded-2xl border border-gray-100 dark:border-zinc-700">
-                            <div className="flex items-center gap-3 font-bold text-brand-purple">
+                            <div className="flex items-center gap-3 font-bold text-brand-pink">
                                 <Globe className="w-5 h-5" /> Público Sempre
                             </div>
                             <p className="text-sm text-gray-600 dark:text-gray-400">Shoppings, cafés movimentados. Nunca casa ou hotel no primeiro date.</p>
                         </div>
                         <div className="flex flex-col gap-4 p-6 bg-gray-50 dark:bg-zinc-800/50 rounded-2xl border border-gray-100 dark:border-zinc-700">
-                            <div className="flex items-center gap-3 font-bold text-brand-purple">
+                            <div className="flex items-center gap-3 font-bold text-brand-pink">
                                 <Navigation className="w-5 h-5" /> Rastreamento
                             </div>
                             <p className="text-sm text-gray-600 dark:text-gray-400">Mande sua localização em tempo real para um amigo de confiança.</p>
                         </div>
                         <div className="flex flex-col gap-4 p-6 bg-gray-50 dark:bg-zinc-800/50 rounded-2xl border border-gray-100 dark:border-zinc-700">
-                            <div className="flex items-center gap-3 font-bold text-brand-purple">
+                            <div className="flex items-center gap-3 font-bold text-brand-pink">
                                 <AlertTriangle className="w-5 h-5" /> Instinto
                             </div>
                             <p className="text-sm text-gray-600 dark:text-gray-400">Se algo parecer estranho, vá embora. Não seja educado(a) às custas da sua segurança.</p>
@@ -73,20 +73,20 @@ export default function SafetyPage() {
                         Recursos de Apoio (Brasil)
                     </h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <a href="tel:190" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-purple hover:shadow-md transition-all group">
-                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-purple group-hover:text-white transition-colors font-bold">190</div>
+                        <a href="tel:190" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-pink hover:shadow-md transition-all group">
+                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-pink group-hover:text-white transition-colors font-bold">190</div>
                             <span className="font-medium text-sm">Polícia Militar</span>
                         </a>
-                        <a href="tel:188" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-purple hover:shadow-md transition-all group">
-                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-purple group-hover:text-white transition-colors font-bold">188</div>
+                        <a href="tel:188" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-pink hover:shadow-md transition-all group">
+                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-pink group-hover:text-white transition-colors font-bold">188</div>
                             <span className="font-medium text-sm">CVV (Apoio)</span>
                         </a>
-                        <a href="tel:180" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-purple hover:shadow-md transition-all group">
-                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-purple group-hover:text-white transition-colors font-bold">180</div>
+                        <a href="tel:180" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-pink hover:shadow-md transition-all group">
+                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-pink group-hover:text-white transition-colors font-bold">180</div>
                             <span className="font-medium text-sm">Mulher</span>
                         </a>
-                        <a href="https://new.safernet.org.br/denuncie" target="_blank" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-purple hover:shadow-md transition-all group">
-                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-purple group-hover:text-white transition-colors font-bold">WWW</div>
+                        <a href="https://new.safernet.org.br/denuncie" target="_blank" className="flex items-center gap-3 p-4 rounded-xl bg-white dark:bg-zinc-900 border border-gray-200 dark:border-zinc-800 hover:border-brand-pink hover:shadow-md transition-all group">
+                            <div className="bg-gray-100 dark:bg-zinc-800 p-2 rounded-lg group-hover:bg-brand-pink group-hover:text-white transition-colors font-bold">WWW</div>
                             <span className="font-medium text-sm">SaferNet</span>
                         </a>
                     </div>

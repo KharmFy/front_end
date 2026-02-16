@@ -27,11 +27,11 @@ export default function ContactPage() {
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Dúvidas sobre conta, app ou planos.</p>
                     <a href="mailto:suporte@karmfy.com" className="text-brand-orange font-medium hover:underline">suporte@karmfy.com</a>
                 </div>
-                <div className="p-6 bg-brand-purple/10 rounded-xl border border-brand-purple/20">
-                    <Shield className="w-8 h-8 text-brand-purple mb-4" />
+                <div className="p-6 bg-brand-pink/10 rounded-xl border border-brand-pink/20">
+                    <Shield className="w-8 h-8 text-brand-pink mb-4" />
                     <h3 className="text-lg font-bold mb-2">Central de Segurança</h3>
                     <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">Denúncias graves e questões legais.</p>
-                    <a href="mailto:seguranca@karmfy.com" className="text-brand-purple font-medium hover:underline">seguranca@karmfy.com</a>
+                    <a href="mailto:seguranca@karmfy.com" className="text-brand-pink font-medium hover:underline">seguranca@karmfy.com</a>
                 </div>
                 <div className="p-6 bg-blue-50 dark:bg-blue-900/10 rounded-xl border border-blue-100 dark:border-blue-900/30">
                     <AlertTriangle className="w-8 h-8 text-blue-500 mb-4" />
@@ -55,7 +55,7 @@ export default function ContactPage() {
                         <p className="text-gray-500">Nossa equipe retornará em até 24 horas.</p>
                         <button
                             onClick={() => setFormState("idle")}
-                            className="mt-6 text-brand-purple font-medium hover:underline"
+                            className="mt-6 text-brand-pink font-medium hover:underline"
                         >
                             Enviar outra mensagem
                         </button>
@@ -68,7 +68,7 @@ export default function ContactPage() {
                                 <input
                                     type="text"
                                     required
-                                    className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-purple outline-none transition-all"
+                                    className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-pink outline-none transition-all"
                                     placeholder="Seu nome"
                                 />
                             </div>
@@ -77,7 +77,7 @@ export default function ContactPage() {
                                 <input
                                     type="email"
                                     required
-                                    className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-purple outline-none transition-all"
+                                    className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-pink outline-none transition-all"
                                     placeholder="seu@email.com"
                                 />
                             </div>
@@ -85,7 +85,7 @@ export default function ContactPage() {
 
                         <div>
                             <label className="block text-sm font-medium mb-2">Assunto</label>
-                            <select className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-purple outline-none transition-all">
+                            <select className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-pink outline-none transition-all">
                                 <option>Suporte Geral</option>
                                 <option>Denúncia</option>
                                 <option>Feedback</option>
@@ -98,7 +98,7 @@ export default function ContactPage() {
                             <textarea
                                 required
                                 rows={5}
-                                className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-purple outline-none transition-all resize-none"
+                                className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-800 border-none focus:ring-2 focus:ring-brand-pink outline-none transition-all resize-none"
                                 placeholder="Como podemos ajudar?"
                             />
                         </div>

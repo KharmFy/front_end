@@ -19,13 +19,13 @@ function AccordionItem({ question, answer, isOpen, onClick }: AccordionItemProps
                 className="w-full py-4 px-2 flex items-center justify-between text-left focus:outline-none group"
                 onClick={onClick}
             >
-                <span className={cn("font-medium text-lg transition-colors", isOpen ? "text-brand-purple" : "text-gray-700 dark:text-gray-200 group-hover:text-brand-purple")}>
+                <span className={cn("font-medium text-lg transition-colors", isOpen ? "text-brand-pink" : "text-gray-700 dark:text-gray-200 group-hover:text-brand-pink")}>
                     {question}
                 </span>
                 {isOpen ? (
-                    <ChevronUp className="w-5 h-5 text-brand-purple" />
+                    <ChevronUp className="w-5 h-5 text-brand-pink" />
                 ) : (
-                    <ChevronDown className="w-5 h-5 text-gray-400 group-hover:text-brand-purple" />
+                    <ChevronDown className="w-5 h-5 text-gray-400 group-hover:text-brand-pink" />
                 )}
             </button>
             <AnimatePresence>
